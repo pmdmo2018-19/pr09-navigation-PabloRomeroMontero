@@ -1,0 +1,8 @@
+<resources>
+    <!-- TODO -->
+    <dimen name="padding_lbllorem">8dp</dimen>
+    <dimen name="loremFragment_fab_margin">18dp</dimen>
+    <dimen name="loremfragment_fab_elevation">8dp</dimen>
+    <dimen name="loremFragment_fab_transz">8dp</dimen>
+    <dimen name="padding_lblText_loremFragment">8dp</dimen>
+</resources>

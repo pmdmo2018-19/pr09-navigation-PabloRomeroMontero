@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbltext_prefkey">prefKeyList</string>
+    <string name="prefLoremType_dialogTitle">Lorem type</string>
+    <string name="prefLoremType_defaultValue">Latin</string>
+</resources>

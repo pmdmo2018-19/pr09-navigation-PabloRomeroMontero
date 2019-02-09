@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/lorem_Fragment2">
+
+    <fragment
+        android:id="@+id/lorem_Fragment2"
+        android:name="com.iessaladillo.pablo.pr09_navigation_pabloromeromontero.ui.fragment.Lorem_Fragment"
+        android:label="lorem_fragment"
+        tools:layout="@layout/lorem_fragment" >
+        <action
+            android:id="@+id/action_lorem_Fragment2_to_preferenceFragment"
+            app:destination="@id/preferenceFragment" />
+        <action
+            android:id="@+id/action_lorem_Fragment2_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.iessaladillo.pablo.pr09_navigation_pabloromeromontero.ui.fragment.DetailFragment"
+        android:label="detalle_fragment"
+        tools:layout="@layout/detalle_fragment" />
+    <fragment
+        android:id="@+id/preferenceFragment"
+        android:name="com.iessaladillo.pablo.pr09_navigation_pabloromeromontero.ui.fragment.PreferenceFragment"
+        android:label="PreferenceFragment" />
+</navigation>
