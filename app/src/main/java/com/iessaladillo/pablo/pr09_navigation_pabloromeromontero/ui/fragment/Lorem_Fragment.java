@@ -38,7 +38,6 @@ public class Lorem_Fragment extends Fragment implements SharedPreferences.OnShar
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setUpNavigator();
         setHasOptionsMenu(true);
 
     }
@@ -61,6 +60,7 @@ public class Lorem_Fragment extends Fragment implements SharedPreferences.OnShar
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        setUpNavigator();
         settings = PreferenceManager.getDefaultSharedPreferences(getContext());
         setupToolbar();
         setupViews();
